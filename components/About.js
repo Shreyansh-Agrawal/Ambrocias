@@ -11,7 +11,7 @@ const About = () => {
                 About <span className="text-warning">Us</span>
               </h3>
               <p className="text-muted">
-                Lorem Ipsum has been the industry's standard dummy text ever
+                Lorem Ipsum has been the industrys standard dummy text ever
                 since the 1500s, when an unknown printer took a galley of type
               </p>
             </div>
@@ -20,7 +20,7 @@ const About = () => {
         <Row>
           <Col md={4}>
             <h2 className="font-weight-light line-height-1_6 text-dark mb-4">
-              Lorem Ipsum has been the industry's standard dummy text
+              Lorem Ipsum has been the industrys standard dummy text
             </h2>
           </Col>
           <Col md={{ size: 7, offset: 1 }}>
@@ -30,7 +30,7 @@ const About = () => {
                   Our Mission
                 </h6>
                 <p className="text-muted font-weight-light">
-                  Lorem Ipsum has been the industry's standard dummy text ever
+                  Lorem Ipsum has been the industrys standard dummy text ever
                   since the 1500s, when an unknown printer took a galley of type
                 </p>
               </Col>
@@ -39,7 +39,7 @@ const About = () => {
                   Our Vision
                 </h6>
                 <p className="text-muted font-weight-light">
-                  Lorem Ipsum has been the industry's standard dummy text ever
+                  Lorem Ipsum has been the industrys standard dummy text ever
                   since the 1500s, when an unknown printer took a galley of type
                 </p>
               </Col>
