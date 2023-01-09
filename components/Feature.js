@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
+import Image from "next/image";
+
 const FeatureBox = (props) => {
   return (
     <>
@@ -15,7 +17,8 @@ const FeatureBox = (props) => {
           >
             <Col md={5}>
               <div>
-                <img
+                <Image
+                  width={20}
                   src={feature.img}
                   alt=""
                   className="img-fluid d-block mx-auto"
@@ -55,7 +58,8 @@ const FeatureBox = (props) => {
             </Col>
             <Col md={{ size: 5, offset: 1 }} className="mt-5 mt-sm-0">
               <div>
-                <img
+                <Image
+                width={20}
                   src={feature.img}
                   alt=""
                   className="img-fluid d-block mx-auto"

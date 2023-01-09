@@ -9,6 +9,8 @@ import {
   NavLink,
 } from "reactstrap";
 
+import Image from "next/image";
+
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [sticky, setSticky] = useState(false);
@@ -35,7 +37,7 @@ const Header = () => {
       sticky={sticky ? "top" : ""}
     >
       <NavbarBrand href="/">
-        <img src="images/logo2.png" alt="" style={{width:"10%"}}/>
+        <Image width={20} src="images/logo2.png" alt="" style={{width:"10%"}}/>
       </NavbarBrand>
 
       <NavbarToggler onClick={toggle} />
