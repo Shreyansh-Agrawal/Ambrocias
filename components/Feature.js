@@ -18,7 +18,8 @@ const FeatureBox = (props) => {
             <Col md={5}>
               <div>
                 <Image
-                  width={20}
+                height={450}
+                  width={450}
                   src={feature.img}
                   alt=""
                   className="img-fluid d-block mx-auto"
@@ -59,7 +60,8 @@ const FeatureBox = (props) => {
             <Col md={{ size: 5, offset: 1 }} className="mt-5 mt-sm-0">
               <div>
                 <Image
-                width={20}
+                height={450}
+                width={450}
                   src={feature.img}
                   alt=""
                   className="img-fluid d-block mx-auto"
@@ -76,21 +78,21 @@ const Feature = () => {
   const features = [
     {
       id: 1,
-      img: "./images/45.png",
+      img: "/images/45.png",
       title: "LOREM IPSUM",
       desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       link: "/",
     },
     {
       id: 2,
-      img: "./images/Group Members.png",
+      img: "/images/Group Members.png",
       title: "LOREM IPSUM",
       desc: "Sed perspiciatis unde omnis natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo excepturi sint occaecati cupiditate architecto.",
       link: "/",
     },
     {
       id: 3,
-      img: "./images/45.png",
+      img: "/images/45.png",
       title: "LOREM IPSUM",
       desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       link: "/",

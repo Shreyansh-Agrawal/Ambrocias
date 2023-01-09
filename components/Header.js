@@ -37,7 +37,7 @@ const Header = () => {
       sticky={sticky ? "top" : ""}
     >
       <NavbarBrand href="/">
-        <Image width={20} src="images/logo2.png" alt="" style={{width:"10%"}}/>
+        <Image width={80} height={80} src="/images/logo2.png" alt=""/>
       </NavbarBrand>
 
       <NavbarToggler onClick={toggle} />
